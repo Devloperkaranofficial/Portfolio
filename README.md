@@ -1,0 +1,2 @@
+# Portfolio
+My personal portfolio website. Highlights my journey as a front-end developer, my skills, and provides links to my social media, YouTube, and other platforms. Created using HTML and CSS for a clean, terminal-inspired aesthetic.
