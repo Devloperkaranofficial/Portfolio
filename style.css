@@ -1,0 +1,134 @@
+* {
+  background: rgb(38, 35, 35);
+  font-family: "Cascadia Mono", sans-serif;
+  font-weight: 500;
+  color: #c6d0f5;
+}
+
+body {
+  min-height: 95vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.heading {
+  color: #8caaee;
+}
+
+section {
+  height: auto;
+  /* width: 60rem; */
+  font-size: 20px;
+}
+
+.output {
+  width: 100%;
+  max-width: 80ch;
+  animation: fade 5s;
+}
+
+.one {
+  color: #929bb9;
+}
+
+.two {
+  color: #f2d5cf;
+}
+
+ul {
+  color: #c6d0f5;
+  font-size: 20px;
+}
+
+li {
+  padding: 3px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #f2d5cf;
+  transition: color 0.3s;
+}
+
+.Youtube:hover {
+  color: red;
+  transition: color 0.3s;
+}
+.Twitter:hover {
+  color: blue;
+  transition: color 0.3s;
+}
+.Github:hover {
+  color: rosybrown;
+  transition: color 0.3s;
+}
+
+.Linkedin:hover {
+  color: #8caaee;
+  transition: color 0.3s;
+}
+
+p {
+  color: #c6d0f5;
+  line-height: 1.4;
+}
+
+.typeme {
+  width: 36ch;
+  animation: typing 2s steps(30),
+    blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 10px solid #f2d5cf;
+}
+
+h3 {
+  display: inline-block;
+  font-size: inherit;
+  padding: 0 0.5em;
+  margin-bottom: 0;
+  background-color: #684eff;
+  color: #fafafa;
+}
+
+.Thanks-txt {
+  color: #f2d5cf;
+}
+
+/* animation */
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 36ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* dynamic resizing */
+@media (min-width: 600px) {
+  body {
+    font-size: 1.25rem;
+  }
+}
