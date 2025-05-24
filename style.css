@@ -46,6 +46,11 @@ li {
   padding: 3px 0px;
 }
 
+li a:hover {
+  color: #684eff;
+  transition: color 0.3s;
+}
+
 a {
   text-decoration: none;
   color: #f2d5cf;
